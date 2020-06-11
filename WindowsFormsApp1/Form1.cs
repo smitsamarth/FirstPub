@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label1.Text = "Area populated";
+            label1.Text = "Area populated done";
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-QK3E55E\SMITSQL;Initial Catalog=HRMSdb;Integrated Security=True");
             SqlDataAdapter da;
             DataTable ds;
